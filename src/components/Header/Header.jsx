@@ -1,4 +1,4 @@
-import FavouriteLocations from './FavouriteLocations';
+import FavouriteListModal from './FavouriteListModal';
 import Logo from './Logo';
 import SearchLocation from './SearchLocation';
 
@@ -10,7 +10,7 @@ const Header = () => {
 
                 <div className="flex items-center gap-4 relative">
                     <SearchLocation/>
-                    <FavouriteLocations/>
+                    <FavouriteListModal/>
                 </div>
             </nav>
         </header>

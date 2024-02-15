@@ -1,13 +1,6 @@
-import heart from '../../assets/heart.svg';
-
-const FavouriteLocations = () => {
+const FavouriteListModal = () => {
     return (
         <>
-            <div className="p-2 hover:bg-black/30 cursor-pointer flex gap-2 items-center rounded-md transition-all">
-                <img src={heart} alt="" />
-                <span>Favourite Locations</span>
-            </div>
-
             {/* Modal of Favourite Locations  */}
             <div className="max-w-xs py-4 bg-white rounded-md border-gray-500 absolute right-0 top-16 text-black shadow-lg ">
                 <h3 className="text-lg font-bold px-4">Favourite Locations</h3>
@@ -21,4 +14,4 @@ const FavouriteLocations = () => {
     );
 };
 
-export default FavouriteLocations;
+export default FavouriteListModal;
